@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: rgb(255, 255, 167);
+    font-family: "Short Stack";
+    font-weight: 400;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 167);
+}
+
+.lineOne {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.lineOne_end {
+    /* display: flex; */
+    /* justify-content: flex-start; */
+    margin-left: 35%;
+    /* padding-top: 6%; */
+}
+
+.lineTwo {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.lineTwo_end {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 10px;
+}
+
+.lineThree {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 45%;
+    padding-top: 5%;
+}
+
+.lineThree_end {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 45%;
+    padding-top: 10px;
+}
+
+.glow {
+    color: rgb(255, 255, 167);
+    text-shadow: 0 0 8px rgb(255, 255, 167), 0 0 16px rgb(255, 255, 167);
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+
+    0%,
+    100% {
+        text-shadow: 0 0 8px rgb(255, 255, 167), 0 0 16px rgb(255, 255, 167);
+    }
+
+    50% {
+        text-shadow: 0 0 12px rgb(255, 255, 167), 0 0 24px rgb(255, 255, 167);
+    }
+}
