@@ -17,36 +17,19 @@ a {
     color: rgb(255, 255, 167);
 }
 
-.lineOne {
-    display: flex;
-    align-items: center;
-    text-align: left;
-    margin-left: 10%;
-    margin-top: 10%;
-}
-
-.lineOne_end {
-    /* display: flex; */
-    /* justify-content: flex-start; */
-    margin-left: 35%;
-    /* padding-top: 6%; */
-}
-
+.lineOne,
 .lineTwo {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    text-align: left;
-    margin-left: 10%;
-    margin-top: 10%;
+    width: 100%;
+    margin: 20%;
 }
 
-.lineTwo_end {
-    display: flex;
-    align-items: center;
-    text-align: left;
-    margin-left: 10%;
-    margin-top: 10px;
+.lineTwo h1 {
+    margin: 0 10px;
 }
+
 
 .glow {
     color: rgb(255, 255, 167);
