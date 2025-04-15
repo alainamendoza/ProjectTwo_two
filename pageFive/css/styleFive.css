@@ -10,7 +10,13 @@ body {
     font-family: "Short Stack";
     font-weight: 400;
     font-style: normal;
+    animation-name: fade;
+    animation-delay: 4s;
+    animation-direction: normal;
+    animation-duration: 10s;
 }
+
+
 
 a {
     text-decoration: none;
@@ -47,4 +53,15 @@ a {
     50% {
         text-shadow: 0 0 12px rgb(255, 255, 167), 0 0 24px rgb(255, 255, 167);
     }
+}
+
+@keyframes fade {
+    from {
+        color: black;
+    }
+
+    to {
+        color: rgb(255, 255, 167);
+    }
+
 }
