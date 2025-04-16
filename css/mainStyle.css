@@ -11,9 +11,9 @@ body {
     font-weight: 400;
     font-style: normal;
     animation-name: fade;
-    animation-delay: 1s;
+    /* animation-delay: 1s; */
     animation-direction: normal;
-    animation-duration: 10s;
+    animation-duration: 5s;
 
 }
 

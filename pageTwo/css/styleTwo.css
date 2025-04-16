@@ -10,6 +10,9 @@ body {
     font-family: "Short Stack";
     font-weight: 400;
     font-style: normal;
+    animation-name: fade;
+    animation-direction: normal;
+    animation-duration: 5s;
 }
 
 a {
@@ -43,13 +46,13 @@ a {
     }
 }
 
-/* html {
-    background-color: black;
-}
+@keyframes fade {
+    from {
+        color: black;
+    }
 
-body {
-    min-height: 100vh;
-    max-width: 400px;
-    background-color: aquamarine;
-    margin: 0 auto;
-} */
+    to {
+        color: rgb(255, 255, 167);
+    }
+
+}
